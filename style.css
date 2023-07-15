@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #ecf0f1;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#main-info, #gallery{
+    text-align: center;
+}
+img{
+    width: 1000px;
+}
+header, nav, footer, form{
+    background-color: #34495e;
+    color: white;
+}
+header{
+    text-align: center;
+    height: 35px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 15px;
+
+}
+
+nav{
+    height: 45px;
+    font: bold  15px sans-serif;
+    margin-top: 2px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav ol{
+    width: 325px;
+    margin: 15px auto;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.reg{
+    width: 250px;
+    height: 275px;
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    border-bottom: 5px solid #f1c40f;
+}
+aside{
+    float: right;
+    padding-right: 265px;
+}
+.main-photo{
+    margin: 23px auto;
+}
+.forma-header{
+    color: #f1c40f;
+    font-family: sans-serif;
+}
+forma{
+    font-family: "Lucida Sans Unicode";
+}
+
+.btn{
+    background-color: #f1c40f;
+    width: 100px;
+    height: 25px;
+    font-family: "Lucida Sans Unicode";
+    border: 0;
+}
+
+#main-info{
+    font-size: large;
+    font-family: sans-serif;
+}
+
+#gallery img{
+    transform: scale(0.8);
+    opacity: 0.5;
+    transition-duration: 0.9;
+}
+
+#gallery img:hover{
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 0px 0px 30px gray;
+}
+#video
+{
+    width: 960px;
+    height: 540px;
+    display: block;
+    margin: 0 auto;
+}
+#map{
+    width: 960px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+.social-logo img{
+    width: auto;
+}
+footer{
+    margin-top: 3px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+.section{
+    width: 33%;
+    float: left;
+}
+.footer-bottem{
+    text-align: center;
+}
+.social-logo a{
+        margin-right: 15%;
+}
+
+.clearfix::before, 
+.clearfix::after{content: ""; display: table;}
+.clearfix::after{clear: both;}
+
+#back_btn{
+    background-color: #f1c40f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-bottom: -70px;
+    position: sticky;
+    top: 90%;
+    left: 87%;
+    z-index: 2;
+    opacity: 0.7;
+}
+#back_btn a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 5px;
+    text-align: center;
+}
